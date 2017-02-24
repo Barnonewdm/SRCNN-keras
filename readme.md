@@ -3,7 +3,7 @@
 
 The original paper is [Learning a Deep Convolutional Network for Image Super-Resolution](https://arxiv.org/abs/1501.00092)
 
-![SRCNN]("./SRCNN.png")
+![SRCNN]("https://github.com/MarkPrecursor/SRCNN-keras/blob/master/SRCNN.png")
 
 My implementation have some difference with the original paper, include:
 
@@ -17,11 +17,11 @@ My implementation have some difference with the original paper, include:
 open **prepare_data.py** and change the data path to your data
 
 Excute:
-'python prepare_data.py'
+`python prepare_data.py`
 
 ### training and test:
 Excute:
-'python main.py'
+`python main.py`
 
 
 ## Result(training for 30 epoches, with upscaling factor 2):
@@ -31,13 +31,13 @@ Excute:
 |PSNR: |24.6971375057|28.6588428245|
 
 Origin Image:
-![Origin]("./butterfly_GT.bmp")
+![Origin]("https://github.com/MarkPrecursor/SRCNN-keras/blob/master/butterfly_GT.bmp")
 
 Bicubic:
-![Bicubic]("./input.jpg")
+![Bicubic]("https://github.com/MarkPrecursor/SRCNN-keras/blob/master/input.jpg")
 
 SRCNN:
-![SRCNN]("./pre_adam30.jpg")
+![SRCNN]("https://github.com/MarkPrecursor/SRCNN-keras/blob/master/pre_adam30.jpg")
 
 
 
